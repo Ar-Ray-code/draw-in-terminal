@@ -110,10 +110,10 @@ void draw_terminal::video(const char* video_name)
         exit(-1);
     }
 
-    int rate = this->get(CV_CAP_PROP_FPS);
+    int rate = this->get(cv::CAP_PROP_FPS);
     unsigned int sleep_time = float(1)/rate*1000*1000;
 
-    for(int frame_all=0; frame_all < this->get(CV_CAP_PROP_FRAME_COUNT) -3;frame_all++)
+    for(int frame_all=0; frame_all < this->get(cv::CAP_PROP_FRAME_COUNT) -3;frame_all++)
     {
         this->read(img_data);
         draw(img_data);
