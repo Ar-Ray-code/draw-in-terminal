@@ -1,17 +1,18 @@
 # Draw on terminal
 
 [![CMake](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml/badge.svg)](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml)
+![](https://img.shields.io/github/license/Ar-Ray-code/draw_on_terminal)
+![](https://img.shields.io/github/forks/Ar-Ray-code/draw_on_terminal)
+![](https://img.shields.io/github/stars/Ar-Ray-code/draw_on_terminal)
 
-#### [English]
 
-## Description
+Draw image or video on terminal.
 
-- This program draws images or videos on the terminal.
 
 ## Requirement
 
 - Ubuntu20.04 LTS Desktop
-- Build:CMake2.8, OpenCV4.2 
+- Build:CMake3.5, OpenCV4
 
 ## Installation & Usage
 
@@ -30,14 +31,15 @@ make
 
 `./draw_on_terminal <options> <your image or video file>`
 
-e.g. if you have video.mp4, Try to execute `./draw_on_terminal video.mp4`
+e.g. if you want to draw video.mp4, Run `./draw_on_terminal video.mp4`.
 
 - The larger the image, the slower the drawing of the terminal. It takes 5 to 10 seconds for a 4K display.
 
 - The size of the output image depends on the width of the terminal.
 
-
 ![](screenshot_example/size_variable.png)
+
+Wallpaper (Pronamachan) -> https://pronama.jp/pronama/wallpapers/
 
 ## Options
 
@@ -53,8 +55,7 @@ e.g. if you have video.mp4, Try to execute `./draw_on_terminal video.mp4`
 
 ## License
 
-MIT : https://github.com/Ar-Ray-code/draw_on_terminal/blob/main/LICENSE
-
+![](https://img.shields.io/github/license/Ar-Ray-code/draw_on_terminal)
 
 
 ## About writer
