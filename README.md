@@ -1,5 +1,7 @@
 # Draw on terminal
 
+[![CMake](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml/badge.svg)](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml)
+
 #### [English]
 
 # My girlfriend doesn't come out of my "Terminal"!
