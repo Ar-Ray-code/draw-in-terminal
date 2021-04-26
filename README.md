@@ -4,23 +4,18 @@
 
 #### [English]
 
-# My girlfriend doesn't come out of my "Terminal"!
-
-![](screenshot_example/result_exe.png)
-
 ## Description
 
 - This program draws images or videos on the terminal.
 
 ## Requirement
 
-- Ubuntu18.04 LTS Desktop
-- Build:CMake2.8, OpenCV3.2 
+- Ubuntu20.04 LTS Desktop
+- Build:CMake2.8, OpenCV4.2 
 
 ## Installation & Usage
 
 #### Installation
-
 
 ```sh
 git clone https://github.com/Ar-Ray-code/draw_on_terminal.git
