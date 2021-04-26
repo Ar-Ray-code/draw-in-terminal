@@ -52,6 +52,16 @@ e.g. if you have video.mp4, Try to execute `./draw_on_terminal video.mp4`
 - --disable_number or -d : Disable output values.
 - --gray_enable or -g         : The number is output in grayscale.(In development)
 
+![draw_options](screenshot_example/draw_options.png)
+
 ## License
 
 MIT : https://github.com/Ar-Ray-code/draw_on_terminal/blob/main/LICENSE
+
+
+
+## About writer
+
+- Ar-Ray : Japanese student.
+- Brog(Japanese) : https://ar-ray.hatenablog.com/
+- Twitter : https://twitter.com/Ray255Ar
