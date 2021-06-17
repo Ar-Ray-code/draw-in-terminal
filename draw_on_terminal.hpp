@@ -46,6 +46,4 @@ class draw_terminal:public cv::VideoCapture
         draw_terminal(int _argc, const char** _argv);
         ~draw_terminal();
 };
-
-
 #endif
