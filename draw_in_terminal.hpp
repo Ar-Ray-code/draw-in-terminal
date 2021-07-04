@@ -1,5 +1,5 @@
-#ifndef draw_on_terminal_hpp
-#define draw_on_terminal_hpp
+#ifndef draw_in_terminal_hpp
+#define draw_in_terminal_hpp
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
