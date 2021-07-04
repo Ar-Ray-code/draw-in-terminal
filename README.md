@@ -29,7 +29,7 @@ make
 
 #### Usage
 
-`./draw_on_terminal <options> <your image or video file>`
+`./draw_in_terminal <options> <your image or video file>`
 
 e.g. if you want to draw video.mp4, Run `./draw_in_terminal video.mp4`.
 
@@ -55,7 +55,7 @@ Wallpaper (Pronamachan) -> https://pronama.jp/pronama/wallpapers/
 
 ## License
 
-![](https://img.shields.io/github/license/Ar-Ray-code/draw_on_terminal)
+![](https://img.shields.io/github/license/Ar-Ray-code/draw_in_terminal)
 
 
 ## About writer
