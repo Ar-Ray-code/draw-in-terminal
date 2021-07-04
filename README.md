@@ -1,9 +1,9 @@
-# Draw on terminal
+# Draw in terminal
 
-[![CMake](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml/badge.svg)](https://github.com/Ar-Ray-code/draw_on_terminal/actions/workflows/cmake.yml)
-![](https://img.shields.io/github/license/Ar-Ray-code/draw_on_terminal)
-![](https://img.shields.io/github/forks/Ar-Ray-code/draw_on_terminal)
-![](https://img.shields.io/github/stars/Ar-Ray-code/draw_on_terminal)
+[![CMake](https://github.com/Ar-Ray-code/draw_in_terminal/actions/workflows/cmake.yml/badge.svg)](https://github.com/Ar-Ray-code/draw_in_terminal/actions/workflows/cmake.yml)
+![](https://img.shields.io/github/license/Ar-Ray-code/draw_in_terminal)
+![](https://img.shields.io/github/forks/Ar-Ray-code/draw_in_terminal)
+![](https://img.shields.io/github/stars/Ar-Ray-code/draw_in_terminal)
 
 
 Draw image or video on terminal.
@@ -12,15 +12,15 @@ Draw image or video on terminal.
 ## Requirement
 
 - Ubuntu20.04 LTS Desktop
-- Build:CMake3.5, OpenCV4
+- OpenCV
 
 ## Installation & Usage
 
 #### Installation
 
 ```sh
-git clone https://github.com/Ar-Ray-code/draw_on_terminal.git
-cd draw_on_terminal
+git clone https://github.com/Ar-Ray-code/draw_in_terminal.git
+cd draw_in_terminal
 mkdir build
 cd build
 cmake ..
@@ -31,7 +31,7 @@ make
 
 `./draw_on_terminal <options> <your image or video file>`
 
-e.g. if you want to draw video.mp4, Run `./draw_on_terminal video.mp4`.
+e.g. if you want to draw video.mp4, Run `./draw_in_terminal video.mp4`.
 
 - The larger the image, the slower the drawing of the terminal. It takes 5 to 10 seconds for a 4K display.
 
