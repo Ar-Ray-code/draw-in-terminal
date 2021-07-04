@@ -1,4 +1,4 @@
-#include "draw_on_terminal.hpp"
+#include "draw_in_terminal.hpp"
 
 void draw_terminal::print_help()
 {
