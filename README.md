@@ -6,7 +6,7 @@
 ![](https://img.shields.io/github/stars/Ar-Ray-code/draw_in_terminal)
 
 
-Draw image or video on terminal.
+Draw image or video in terminal.
 
 
 ## Requirement
