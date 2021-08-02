@@ -184,9 +184,9 @@ void draw_terminal::draw(cv::Mat img)
 
 draw_terminal::draw_terminal(int _argc, const char** _argv)
 {
-    color = NUMBER;
+    color = BACKGROUND;
     random_num = ENABLE;
-    number_view = ENABLE;
+    number_view = DISABLE;
     gray = DISABLE;
 
 	srand(time(NULL));

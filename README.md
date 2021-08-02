@@ -25,13 +25,14 @@ mkdir build
 cd build
 cmake ..
 make
+sudo make install
 ```
 
 #### Usage
 
-`./draw_in_terminal <options> <your image or video file>`
+`draw_in_terminal <options> <your image or video file>`
 
-e.g. if you want to draw video.mp4, Run `./draw_in_terminal video.mp4`.
+e.g. if you want to draw video.mp4, Run `draw_in_terminal video.mp4`.
 
 - The larger the image, the slower the drawing of the terminal. It takes 5 to 10 seconds for a 4K display.
 
@@ -42,6 +43,8 @@ e.g. if you want to draw video.mp4, Run `./draw_in_terminal video.mp4`.
 Wallpaper (Pronamachan) -> https://pronama.jp/pronama/wallpapers/
 
 ## Options
+
+Default option : -b and -d
 
 - --help or -h                      : View help
 - --background or -b        : Background is colored.
